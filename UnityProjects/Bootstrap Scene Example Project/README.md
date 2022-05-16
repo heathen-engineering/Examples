@@ -1,5 +1,5 @@
-Unity Version: 2021 LTS
-Author: James McGhee
+Unity Version:   2021 LTS
+Author:   James McGhee
 
 # Bootstrap Scene Example
 This example demonstrates the use of a bootstrap scene and gives examples of managing scene loading using both the Additive method (recomended) and the Do Not Destroy On Load Method (not-recomended).
