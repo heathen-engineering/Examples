@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Heathen.BootstrapExample.Additive
+namespace Heathen.BootstrapExample.DNDoL
 {
     public class LoadingScreenDisplay : MonoBehaviour
     {

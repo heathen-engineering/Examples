@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Heathen.BootstrapExample.Additive
+namespace Heathen.BootstrapExample.DNDoL
 {
     public class BootstrapLogic : MonoBehaviour
     {
@@ -12,6 +12,7 @@ namespace Heathen.BootstrapExample.Additive
 
         private void Start()
         {
+            DontDestroyOnLoad(gameObject);
             LoadingScreenDisplay.instance = loadingScreenDisplay;
             StartCoroutine(Validate());
         }
@@ -52,7 +53,7 @@ namespace Heathen.BootstrapExample.Additive
             LoadingScreenDisplay.Progress = 0;
             LoadingScreenDisplay.Showing = true;
 
-            var operation = SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
+            var operation = SceneManager.LoadSceneAsync(1);
             // Tell unity to activate the scene soon as its ready
             operation.allowSceneActivation = true;
 

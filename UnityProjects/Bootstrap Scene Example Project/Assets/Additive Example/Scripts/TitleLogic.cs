@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Heathen.BootstrapExample
+namespace Heathen.BootstrapExample.Additive
 {
     public class TitleLogic : MonoBehaviour
     {
