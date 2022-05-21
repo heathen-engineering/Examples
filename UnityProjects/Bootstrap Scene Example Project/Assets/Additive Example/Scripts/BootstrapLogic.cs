@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -38,7 +37,7 @@ namespace Heathen.BootstrapExample.Additive
             Debug.Log("Waiting for 1 ...");
             yield return new WaitForSeconds(1f);
 
-            Debug.Log("Loading title scene ...");
+            Debug.Log("Loading the title scene!");
 
             // In this example we simply waite for 3 seconds, in a real game you would be showing splash screens, loading data, poling hardware and confirming licenses
 
